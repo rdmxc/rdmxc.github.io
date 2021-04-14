@@ -1979,7 +1979,7 @@ pre code {
   border: 1px solid #fff;
   left: -6px;
   position: absolute;
-  top: 0.75em;
+  top: 0.65em;
   transition: background 0.2s ease-in-out;
   border-radius: 50%;
   content: ' ';
@@ -1994,7 +1994,7 @@ pre code {
 }
 .posts-collapse .post-content .post-meta-container {
   display: inline;
-  font-size: 0.75em;
+  font-size: 0.65em;
   margin-right: 10px;
 }
 .posts-collapse .post-content .post-title {
@@ -2213,7 +2213,7 @@ pre code {
 .posts-expand .post-meta-container {
   color: #999;
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.65em;
   margin-top: 3px;
 }
 .posts-expand .post-meta-container .post-description {
@@ -2262,7 +2262,7 @@ pre code {
   top: 2px;
 }
 .post-nav-item .fa {
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 .post-nav-item:first-child .fa {
   margin-right: 5px;
@@ -2572,7 +2572,7 @@ pre code {
   }
 }
 ul.breadcrumb {
-  font-size: 0.75em;
+  font-size: 0.65em;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
