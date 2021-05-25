@@ -252,7 +252,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-05-25 21:05:52" itemprop="dateModified" datetime="2021-05-25T21:05:52+08:00">2021-05-25</time>
+        <time title="Modified: 2021-05-25 21:10:30" itemprop="dateModified" datetime="2021-05-25T21:10:30+08:00">2021-05-25</time>
       </span>
 
   
@@ -1209,6 +1209,26 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '4c1c8985c8b38214dc6a',
+      clientSecret: '4f9c7874ef7e734cf8e28624dc82f2b8a5c6d37f',
+      repo        : 'gitalk',
+      owner       : 'rdmxc',
+      admin       : ['rdmxc'],
+      id          : '3be7aa98d992907175cbd79c194399f2',
+      proxy       : 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
   
 
