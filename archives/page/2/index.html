@@ -157,14 +157,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -220,10 +220,53 @@
   <div class="post-block">
     <div class="post-content">
       <div class="collection-title">
-        <span class="collection-header">Um..! 22 posts in total. Keep on posting.</span>
+        <span class="collection-header">Um..! 24 posts in total. Keep on posting.</span>
       </div>
 
       
+    <div class="collection-year">
+      <span class="collection-header">2020</span>
+    </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2020-03-12T13:04:06+08:00"
+              content="2020-03-12">
+          03-12
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/03/12/%E8%BF%99%E6%89%8D%E6%98%AF%E7%94%9F%E6%B4%BB%E5%90%A7%EF%BC%81/" itemprop="url">
+            <span itemprop="name">这才是生活吧！</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+      <div class="post-meta-container">
+        <time itemprop="dateCreated"
+              datetime="2020-01-08T15:39:19+08:00"
+              content="2020-01-08">
+          01-08
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2020/01/08/I'm%20back/" itemprop="url">
+            <span itemprop="name">I'm back</span>
+          </a>
+      </div>
+
+      
+    </header>
+  </article>
     <div class="collection-year">
       <span class="collection-header">2019</span>
     </div>
@@ -391,46 +434,6 @@
     </header>
   </article>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2018-03-29T13:15:39+08:00"
-              content="2018-03-29">
-          03-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2018/03/29/%E6%96%B0%E8%B5%B7%E7%82%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E5%87%BA%E5%8F%91/" itemprop="url">
-            <span itemprop="name">新起点，重新出发</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2018-02-28T14:38:45+08:00"
-              content="2018-02-28">
-          02-28
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2018/02/28/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9%E4%BC%9A%E8%AE%AE%E7%BA%AA%E8%A6%81/" itemprop="url">
-            <span itemprop="name">好久不见的知识点会议纪要</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
 
     </div>
   </div>
@@ -462,14 +465,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>Symbols count total: </span>
-    <span title="Symbols count total">12k</span>
+    <span title="Symbols count total">14k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>Reading time total &asymp;</span>
-    <span title="Reading time total">11 mins.</span>
+    <span title="Reading time total">13 mins.</span>
   </span>
 </div>
 
@@ -488,6 +491,26 @@
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '4c1c8985c8b38214dc6a',
+      clientSecret: '4f9c7874ef7e734cf8e28624dc82f2b8a5c6d37f',
+      repo        : 'gitalk',
+      owner       : 'rdmxc',
+      admin       : ['rdmxc'],
+      id          : '3be7aa98d992907175cbd79c194399f2',
+      proxy       : 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
   
 
